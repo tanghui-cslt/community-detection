@@ -1,15 +1,15 @@
-##  *基于里奇流的网络聚类和社区检测*
+##  *Community Decection applying to ossicles segmentation on Mesh*
 
 ![左边结果 ](./img/left_huang.png)
->Left is original image ，right is new results
+>Left is the original image ，right is new results
 
 ### Introdution
 This project is based on [professor Luo's work](https://www.nature.com/articles/s41598-019-46380-9)，
-it mainly applies ricci flow on community decetion, deceting each compact community from a complex network. Comparing previous methodes, both the robustness and accuracy are improved. 
+it mainly applies ricci flow on community detection, deceting each compact community from a complex network. Comparing previous methodes, both the robustness and accuracy are improved. 
 
 This repository introduces how to implement it.
 
-Ossicles are the smallest bones in the human body, its interior is compact and it rare connect with other organs of our body. In this case, it can be sees as a community of a complex network when we scan our body as a mesh. Searching for ossicles on our body can be transforms community decetion. 
+Ossicles are the smallest bones in the human body, its interior is compact and it rare connect with other organs of our body. In this case, it can be seen as a community of a complex network when we scan our body as a mesh. Searching for ossicles on our body can be transforms detecting community on network. 
 
 听小骨是人体中最小的骨头，而且在人体中属于相对独立的区域，内部比较紧密，与其他的组织联系较少，由此我们可以把听小骨看作是一个社区。所以我们把应用罗老师的算法应用图像上面，通过这种社区检测的算法，实现在图像上的听小骨的分割。
 
@@ -32,7 +32,7 @@ Download and install [GraphRicciCurvature](https://github.com/saibalmars/GraphRi
 This methos is very easy, but it will have different issuses when authors update it, so I will give another method to install it.
 
 方法一比较简单，但是可能会由于作者更新版本的原因，可能会导致各种问题。所以给出手动安装的方法。
-#### Method 2 ：manual installation
+#### Method 2 ：Manual installation
 versions of libraries that we will used：
 ```bash
 python     (version=3.6.5)
