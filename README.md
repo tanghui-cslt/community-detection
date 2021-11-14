@@ -16,7 +16,7 @@ Ossicles are the smallest bones in the human body, its interior is compact and i
 
 ### Install
 
-You need to install matlab 2017 or higher version and python3 firstly, and  download it.
+First, You need to install matlab 2017 or higher version and python3, and  download it.
 
 
 ```bash
@@ -26,7 +26,8 @@ git clone --recursive https://github.com/tanghui-cslt/community-detection.git
 
 Download and install [GraphRicciCurvature](https://github.com/saibalmars/GraphRicciCurvature.git)
 
-This methos is very easy, but it will have different issuses when authors update it, so I will give another method to install it.
+If you experience some difficulty in the installation, kindly check another method of installation
+
 
 
 #### Method 2 ：Manual installation
