@@ -84,7 +84,7 @@ Where the first parameter is number, which ranges from 1 to 18; the second param
 python step4_grid.py 1 left
 
 ```
-By utilizing ricci flow algorithm, it generates several different possible results.
+By utilizing Ricci flow algorithm, it generates several different possible results.
 
 ####  Step4：
 
