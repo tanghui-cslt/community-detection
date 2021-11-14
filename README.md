@@ -66,7 +66,7 @@ python step3_read_new.py
 
 ```
 
-Esatablishing mesh, and saving as .gml file.
+Establishing mesh and saving as .gml file.
 
 
 ####  Step3：
