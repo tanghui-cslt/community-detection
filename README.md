@@ -104,5 +104,14 @@ step6_show_results.m
 
 ### Reference
 
-Ni, CC., Lin, YY., Luo, F. et al. Community Detection on Networks with Ricci Flow. Sci Rep 9, 9984 (2019). https://doi.org/10.1038/s41598-019-46380-9
+Ni, CC., Lin, YY., Luo, F. et al. Community Detection on Networks with Ricci Flow. Sci Rep 9, 9984 (2019). 
+
+#### Olliver-Ricci Curvature Project
+
+<p align="center">
+<img src="https://github.com/saibalmars/GraphRicciCurvature/raw/master/doc/_static/rf-manifold.png" title="Manifold Ricci flow" width="300" >
+<img src="https://github.com/saibalmars/GraphRicciCurvature/raw/master/doc/_static/karate_demo.png" title="karate club demo" width="500" >
+</p>
+
+https://github.com/saibalmars/GraphRicciCurvature
 
