@@ -1,15 +1,16 @@
-##  *Community Decection applying to ossicles segmentation on Mesh*
+##  *Community Detection applying to ossicles segmentation on Mesh*
 
 ![左边结果 ](./img/left_huang.png)
->Left is the original image ，right is new results
+>Left is the original image ，right is new result
 
 ### Introdution
 This project is based on [professor Luo's work](https://www.nature.com/articles/s41598-019-46380-9)，
-it mainly applies olliver-ricci flow on community detection, deceting each compact community from a complex network by defining curvature on edges of mesh instead of defining on vertices. Comparing previous methodes, both the robustness and accuracy are improved. 
+it mainly applies Olliver-Ricci flow on community detection, detecting each compact community from a complex network by defining curvature on edges of mesh instead of defining on vertices. Comparing previous methods, both the robustness and accuracy are improved. 
 
 This repository introduces how to implement it.
 
-Ossicles are the smallest bones in the human body, its interior is compact and it rare connect with other organs of our body. In this case, it can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transforms as detecting community on network. 
+Ossicles are the smallest bones in the human body, its interior is compact and it rarely connect with other organs of our body. In this case, it can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transformed into detecting community on a network.
+
 
 
 
@@ -106,7 +107,6 @@ step6_show_results.m
 
 Ni, CC., Lin, YY., Luo, F. et al. Community Detection on Networks with Ricci Flow. Sci Rep 9, 9984 (2019). 
 
-#### Olliver-Ricci Curvature Project
 
 <p align="center">
 <img src="https://github.com/saibalmars/GraphRicciCurvature/raw/master/doc/_static/rf-manifold.png" title="Manifold Ricci flow" width="300" >
