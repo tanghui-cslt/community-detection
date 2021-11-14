@@ -77,7 +77,7 @@ In `src/GraphRicciCurvature` directory, in python :
 python step4_grid.py num orient
 
 ```
-Where the first parameter is numbe, which ranges from 1 to 18; the second parameter can be set as left or right, for example.
+Where the first parameter is number, which ranges from 1 to 18; the second parameter can be set as left or right, for example.
 
 ```bash
 
