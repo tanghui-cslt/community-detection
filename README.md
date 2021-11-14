@@ -26,12 +26,12 @@ git clone --recursive https://github.com/tanghui-cslt/community-detection.git
 
 Download and install [GraphRicciCurvature](https://github.com/saibalmars/GraphRicciCurvature.git)
 
-If you experience some difficulty in the installation, kindly check another method of installation
+If you experience some difficulty in the installation, kindly check another method of installation.
 
 
 
 #### Method 2 ：Manual installation
-versions of libraries that we will used：
+versions of libraries that I will used：
 ```bash
 python     (version=3.6.5)
 cvxpy      (version=1.0.31)
@@ -48,16 +48,16 @@ cython
 There are two ossicles in the human body, in this project, I am going to take the left one as an example.
 
 
-1.  Step 1 :
+#### Step 1 :
 
 In `src/` directory，in matlab  :
 ```bash
 step2_compare_region.m ，
 ``` 
-Assgining a specific area including ossicle.
+Assigning a specific area including ossicle.
 
 
-2.  Step2 : 
+#### Step2 : 
 
 In `src/` directory，in python :
 ```bash
@@ -69,7 +69,7 @@ python step3_read_new.py
 Esatablishing mesh, and saving as .gml file.
 
 
-3.  Step3：
+####  Step3：
 
 In `src/GraphRicciCurvature` directory, in python :
 ```bash
@@ -86,8 +86,7 @@ python step4_grid.py 1 left
 ```
 By utilizing ricci flow algorithm, it generates several different possible results.
 
-
-4.  Step4：
+####  Step4：
 
 In `src/GraphRicciCurvature` directory, in python  :
 ```bash
@@ -97,7 +96,7 @@ Selecting the best result from all of them.
 
 
 
-5. Step5：
+#### Step5：
 In `src/` directory, in matlab :
 ```bash
 step6_show_results.m
