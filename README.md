@@ -1,4 +1,4 @@
-##  *Community Detection applying to ossicles segmentation on Mesh*
+##  *Applying community detection  to ossicles segmentation on mesh*
 
 ![左边结果 ](./img/left_huang.png)
 >Left is the original image ，right is new result
