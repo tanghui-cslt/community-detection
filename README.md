@@ -9,7 +9,7 @@ it mainly applies Olliver-Ricci flow on community detection, detecting each comp
 
 This repository introduces how to implement it.
 
-Ossicles are the smallest bones in the human body, its interior is compact and they rarely connects with other organs of our body. In this case, they can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transformed into detecting community on a network.
+Ossicles are the smallest bones in the human body, their interior are compact and they rarely connects with other organs of our body. In this case, they can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transformed into detecting community on a network.
 
 
 
