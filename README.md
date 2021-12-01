@@ -9,14 +9,14 @@ it mainly applies Olliver-Ricci flow on community detection, detecting each comp
 
 This repository introduces how to implement it.
 
-Ossicles are the smallest bones in the human body, its interior is compact and it rarely connect with other organs of our body. In this case, it can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transformed into detecting community on a network.
+Ossicles are the smallest bones in the human body, its interior is compact and they rarely connects with other organs of our body. In this case, they can be seen as a community of a complex network when we scan our brain as a mesh. Searching for ossicles on our body can be transformed into detecting community on a network.
 
 
 
 
 ### Install
 
-First, You need to install matlab 2017 or higher version and python3, and  download it.
+First, You need to install matlab 2017 or higher version and python3, and download the repository.
 
 
 ```bash
@@ -26,11 +26,12 @@ git clone --recursive https://github.com/tanghui-cslt/community-detection.git
 
 Download and install [GraphRicciCurvature](https://github.com/saibalmars/GraphRicciCurvature.git)
 
-If you experience some difficulty in the installation, kindly check another method of installation.
+If you experience some difficulties during the installation, kindly check another method of installation.
 
 
 
 #### Method 2 ：Manual installation
+
 versions of libraries that I will used：
 ```bash
 python     (version=3.6.5)
