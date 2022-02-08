@@ -1,7 +1,7 @@
 ##  *Applying community detection  for ossicles segmentation on mesh*
 
 ![左边结果 ](./img/left_huang.png)
->Left is the original image ，right is new result
+>Left is the original image ，right is the new result
 
 ### Introdution
 This project is based on [professor Luo's work](https://www.nature.com/articles/s41598-019-46380-9)，
